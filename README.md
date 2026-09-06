@@ -66,7 +66,7 @@ As the project grows, experiments, benchmarks, or topic-specific synthesis may b
 ## Daily research briefs
 
 <!-- DAILY_BRIEFS_START -->
-_No daily research briefs have been published yet._
+- [2026-09-06](research/2026-09-06.md) — Repository delegation control plane, Skills over MCP, GPT-6 Astra, and GitHub Agentic Workflows
 <!-- DAILY_BRIEFS_END -->
 
 ## Research Candidates
