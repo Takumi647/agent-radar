@@ -66,7 +66,8 @@ As the project grows, experiments, benchmarks, or topic-specific synthesis may b
 ## Daily research briefs
 
 <!-- DAILY_BRIEFS_START -->
-- [2026-09-06](research/2026-09-06.md) — Repository delegation control plane, Skills over MCP, GPT-6 Astra, and GitHub Agentic Workflows
+- [2026-09-06](research/2026-09-06.md) — Repository delegation control plane, Skills over MCP, GPT-6 Astra, GitHub Agentic Workflows, and a nine-project AI Workflow synthesis
+- [2026-09-06 AI Workflow Deep Dive](research/2026-09-06-ai-workflow-deep-dive.md) — Dashi, Codebase-Memory, gh-aw, Graphify, OpenWiki, LLM Wiki, Symphony, Archify, and OpenViking mapped into one Agent Stack
 <!-- DAILY_BRIEFS_END -->
 
 ## Research Candidates
