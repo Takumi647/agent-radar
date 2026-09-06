@@ -1,8 +1,8 @@
 # Agent Radar
 
-A continuously updated research radar for **AI agent engineering**.
+A continuously updated research radar for **AI agent engineering and AI/Agent Security**.
 
-Agent Radar tracks meaningful technical developments across agent runtimes, coding agents, multi-agent systems, context engineering, memory, tool use, evaluation, observability, and orchestration. The goal is not to collect every announcement—it is to identify developments worth understanding, reproducing, benchmarking, or applying.
+Agent Radar tracks meaningful technical developments across agent runtimes, coding agents, multi-agent systems, context engineering, memory, tool use, evaluation, observability, orchestration, and security. The goal is not to collect every announcement—it is to identify developments worth understanding, reproducing, benchmarking, or applying.
 
 ## What this repository tracks
 
@@ -17,7 +17,22 @@ Primary research areas include:
 - Agent evaluation and benchmarking
 - Agent observability and tracing
 - Agent orchestration and workflow design
+- **AI / Agent Security**
+  - direct and indirect prompt injection
+  - jailbreaks and instruction-boundary failures
+  - tool abuse and confused-deputy problems
+  - credential, secret, and data-exfiltration risks
+  - RAG, context, and memory poisoning
+  - MCP / tool / skill / plugin supply-chain security
+  - agent-to-agent trust and delegated-authority boundaries
+  - unsafe code execution, sandboxing, and isolation
+  - provenance, output validation, least privilege, and capability-based security
+  - security evaluation, red teaming, and defense benchmarking
 - Important open-source agent frameworks and infrastructure
+
+The security track is defensive and evaluation-focused. Attack research should clarify threat models, prerequisites, impact, and reproducible test methodology without turning the repository into an operational intrusion manual.
+
+See [`research/SECURITY.md`](research/SECURITY.md) for the security taxonomy and evaluation principles.
 
 ## Research philosophy
 
@@ -30,9 +45,10 @@ For each notable development, the research should answer:
 1. **What changed?**
 2. **Why does it matter?**
 3. **How does it work technically?**
-4. **How is it different from existing approaches?**
-5. **Can it be reproduced, tested, or benchmarked?**
-6. **Is it worth becoming a Research Candidate?**
+4. **What is the security implication / attack surface?**
+5. **How is it different from existing approaches?**
+6. **Can it be reproduced, tested, or benchmarked?**
+7. **Is it worth becoming a Research Candidate?**
 
 Unchanged items should not be repeated merely to fill a daily report.
 
@@ -40,11 +56,12 @@ Unchanged items should not be repeated merely to fill a daily report.
 
 Preferred sources, roughly in order:
 
-1. Official documentation, engineering posts, release notes, and repositories
+1. Official documentation, engineering posts, release notes, security advisories, and repositories
 2. Original papers and technical reports
 3. GitHub commits, pull requests, issues, ADRs, benchmarks, and source code
-4. High-quality technical analysis
-5. Community discussion only when it adds useful evidence or implementation experience
+4. Reproducible security research and red-team evaluations
+5. High-quality technical analysis
+6. Community discussion only when it adds useful evidence or implementation experience
 
 Where possible, briefs link directly to the original source rather than secondary summaries.
 
@@ -55,6 +72,7 @@ agent-radar/
 ├── README.md
 └── research/
     ├── README.md
+    ├── SECURITY.md
     ├── TEMPLATE.md
     └── YYYY-MM-DD.md
 ```
@@ -78,6 +96,7 @@ A **Research Candidate** is more than an interesting link. It is something that 
 - running a benchmark
 - comparing two architectures
 - testing cost / latency / quality trade-offs
+- measuring attack and defense success rates
 - inspecting an implementation in depth
 - validating whether a claimed improvement survives realistic workloads
 
