@@ -94,7 +94,7 @@ As the project grows, experiments, benchmarks, or topic-specific synthesis may b
 ## AI / Agent Security Radar
 
 <!-- SECURITY_RADAR_START -->
-_分流後的 Security daily briefs 將收錄於 `research/security/`。_
+- [2026-09-08](research/security/2026-09-08.md) — Security findings compaction integrity、gh-aw delegation control reachability、adaptive indirect prompt injection、Skill scanner audit-surface completeness
 <!-- SECURITY_RADAR_END -->
 
 ## Legacy / Combined research briefs
