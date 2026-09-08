@@ -71,17 +71,33 @@ Where possible, briefs link directly to the original source rather than secondar
 agent-radar/
 ├── README.md
 └── research/
+    ├── agent/
+    │   └── YYYY-MM-DD.md
+    ├── security/
+    │   └── YYYY-MM-DD.md
     ├── README.md
     ├── SECURITY.md
     ├── TEMPLATE.md
-    └── YYYY-MM-DD.md
+    └── legacy combined briefs...
 ```
 
-Daily reports live in `research/` and use the Asia/Taipei calendar date.
+New daily reports are split into independent Agent Ecosystem and AI / Agent Security tracks and use the Asia/Taipei calendar date. Earlier combined briefs remain under `research/` for continuity.
 
 As the project grows, experiments, benchmarks, or topic-specific synthesis may be added when there is real content to justify them rather than creating empty structure in advance.
 
-## Daily research briefs
+## Agent Ecosystem Radar
+
+<!-- AGENT_RADAR_START -->
+- [2026-09-08](research/agent/2026-09-08.md) — Agent resume durability、Codex Multi-Agent V2 cold-resume state、OpenViking memory extraction、Codebase-Memory progressive context disclosure
+<!-- AGENT_RADAR_END -->
+
+## AI / Agent Security Radar
+
+<!-- SECURITY_RADAR_START -->
+_分流後的 Security daily briefs 將收錄於 `research/security/`。_
+<!-- SECURITY_RADAR_END -->
+
+## Legacy / Combined research briefs
 
 <!-- DAILY_BRIEFS_START -->
 - [2026-09-07](research/2026-09-07.md) — 動態 repository enclave、Agent action-commit 安全邊界、MCP filesystem canonicalization，以及 AI Security scanner baseline
@@ -105,7 +121,7 @@ Candidates should include a proposed experiment or verification step rather than
 
 ## Automation
 
-This repository is maintained with a scheduled research workflow. The workflow searches for new developments, compares them with recent briefs, writes a dated research report, and updates the reverse-chronological index above.
+This repository is maintained with scheduled research workflows. Agent Ecosystem and AI / Agent Security are researched independently so that security findings do not replace general agent-engineering coverage.
 
 Automation is used for discovery and synthesis, not as a substitute for evidence. Claims should remain traceable to source material, and uncertain conclusions should be identified as such.
 
