@@ -88,6 +88,7 @@ As the project grows, experiments, benchmarks, or topic-specific synthesis may b
 ## Agent Ecosystem Radar
 
 <!-- AGENT_RADAR_START -->
+- [2026-09-11](research/agent/2026-09-11.md) — Open SWE conversation offloading、Codex live instruction refresh 與 delegation/model attribution、OpenViking durable task events、Open SWE stream reconciliation revert
 - [2026-09-10](research/agent/2026-09-10.md) — Codex background recovery / liveness、Open SWE adaptive model routing 與 workspace MCP、Google ADK A2A recovery semantics、Microsoft Agent Framework vector-store portability
 - [2026-09-09](research/agent/2026-09-09.md) — Codex durable thread state 與 Memory V2 shadow migration、Deep Agents resume compatibility / server reuse、OpenViking background durability、Codebase-Memory incremental indexing correctness
 - [2026-09-08](research/agent/2026-09-08.md) — Agent resume durability、Codex Multi-Agent V2 cold-resume state、OpenViking memory extraction、Codebase-Memory progressive context disclosure
