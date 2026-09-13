@@ -88,6 +88,7 @@ As the project grows, experiments, benchmarks, or topic-specific synthesis may b
 ## Agent Ecosystem Radar
 
 <!-- AGENT_RADAR_START -->
+- [2026-09-13](research/agent/2026-09-13.md) — Codex model-visible context accounting 與 single-writer task ownership、Google ADK cancellation / parallel state merge、Deep Agents trajectory efficiency eval、OpenViking parser backend abstraction
 - [2026-09-12](research/agent/2026-09-12.md) — OpenViking agent-managed context windows、Deep Agents bounded compaction recovery、async human side channel、workflow identity/state authority、contract-aware delegation、SWE-Bench Pro Verified
 - [2026-09-11](research/agent/2026-09-11.md) — Open SWE conversation offloading、Codex live instruction refresh 與 delegation/model attribution、OpenViking durable task events、Open SWE stream reconciliation revert
 - [2026-09-10](research/agent/2026-09-10.md) — Codex background recovery / liveness、Open SWE adaptive model routing 與 workspace MCP、Google ADK A2A recovery semantics、Microsoft Agent Framework vector-store portability
