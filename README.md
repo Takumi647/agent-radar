@@ -88,6 +88,7 @@ As the project grows, experiments, benchmarks, or topic-specific synthesis may b
 ## Agent Ecosystem Radar
 
 <!-- AGENT_RADAR_START -->
+- [2026-09-15](research/agent/2026-09-15.md) — Environment-probing memory curation、ADK handoff / resume state authority、Agent Framework AG-UI idempotent resume / parallel tool streaming、Deep Agents nested model cost attribution、Codex durable attachments、OpenViking QueueFS lifecycle
 - [2026-09-14](research/agent/2026-09-14.md) — Codex per-session worktree isolation 與 step-level execution provenance、OpenViking turn-aware context retention / server-side Git Skills、Google ADK route-aware workflow graph、OpenAI Agents API managed harness
 - [2026-09-13](research/agent/2026-09-13.md) — Codex model-visible context accounting 與 single-writer task ownership、Google ADK cancellation / parallel state merge、Deep Agents trajectory efficiency eval、OpenViking parser backend abstraction
 - [2026-09-12](research/agent/2026-09-12.md) — OpenViking agent-managed context windows、Deep Agents bounded compaction recovery、async human side channel、workflow identity/state authority、contract-aware delegation、SWE-Bench Pro Verified
