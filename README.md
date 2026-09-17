@@ -88,6 +88,7 @@ As the project grows, experiments, benchmarks, or topic-specific synthesis may b
 ## Agent Ecosystem Radar
 
 <!-- AGENT_RADAR_START -->
+- [2026-09-17](research/agent/2026-09-17.md) — Open SWE adaptive model-routing A/B / fallback tracing / sandbox binding、Agent Framework durable compaction transcript、Google ADK Skill unload lifecycle、PydanticAI durable AgentRunResult、Real-SWE private-code benchmark
 - [2026-09-16](research/agent/2026-09-16.md) — Codex interrupted-turn recovery snapshots、Open SWE workspace routing / side-effect delivery semantics、OpenViking cross-harness memory runtime parity、Google ADK streaming tool-call identity、Deep Agents atomic interrupt recovery
 - [2026-09-15](research/agent/2026-09-15.md) — Environment-probing memory curation、ADK handoff / resume state authority、Agent Framework AG-UI idempotent resume / parallel tool streaming、Deep Agents nested model cost attribution、Codex durable attachments、OpenViking QueueFS lifecycle
 - [2026-09-14](research/agent/2026-09-14.md) — Codex per-session worktree isolation 與 step-level execution provenance、OpenViking turn-aware context retention / server-side Git Skills、Google ADK route-aware workflow graph、OpenAI Agents API managed harness
